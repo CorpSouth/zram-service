@@ -16,7 +16,7 @@ ZRAM_CONFIG=zram-config
 STREAMS=$(grep -c ^processor /proc/cpuinfo)
 
 # defaults
-ALGORITHM=lz4
+ALGORITHM=zstd
 RAM_PERCENTAGE=50
 PRIORITY=100
 
